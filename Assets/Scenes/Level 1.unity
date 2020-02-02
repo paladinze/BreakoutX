@@ -401,7 +401,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.56, y: 0.64}
+    oldSize: {x: 2, y: 0.5}
     newSize: {x: 2.56, y: 0.64}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -409,13 +409,13 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.6716795, y: 0.32000005}
-      - {x: -0.72999954, y: 0.29813015}
-      - {x: -1.2799997, y: 0.05084008}
-      - {x: -1.28, y: -0.32}
-      - {x: 1.28, y: -0.32}
-      - {x: 1.2799997, y: 0.06084007}
-      - {x: 1.0699997, y: 0.15813005}
+    - - {x: 0.503005, y: 0.24158669}
+      - {x: -0.5030055, y: 0.25}
+      - {x: -0.9831729, y: 0.037259877}
+      - {x: -1, y: -0.25}
+      - {x: 1, y: -0.25}
+      - {x: 1, y: 0.045072377}
+      - {x: 0.81069756, y: 0.11538488}
 --- !u!50 &500317164
 Rigidbody2D:
   serializedVersion: 4
@@ -616,7 +616,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1418113057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -681,6 +681,7 @@ GameObject:
   - component: {fileID: 1471836398}
   - component: {fileID: 1471836400}
   - component: {fileID: 1471836399}
+  - component: {fileID: 1471836401}
   m_Layer: 0
   m_Name: ball
   m_TagString: Untagged
@@ -696,7 +697,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1471836396}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12.83, y: 8.71, z: 0}
+  m_LocalPosition: {x: 7.96, y: 1.24, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -789,6 +790,21 @@ CircleCollider2D:
   m_Offset: {x: 0.006266579, y: 0.01128006}
   serializedVersion: 2
   m_Radius: 0.21000004
+--- !u!114 &1471836401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471836396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d6916b035d2d48d8a0a43cc16cfae3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paddle1: {fileID: 500317165}
+  xSpeed: 2
+  ySpeed: 10
 --- !u!1 &1734633738
 GameObject:
   m_ObjectHideFlags: 0

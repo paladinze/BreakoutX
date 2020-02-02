@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -14,8 +15,9 @@ public class paddle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float mousePositionXInUnits = (Input.mousePosition.x / Screen.width) * screenWidthInUnits;
-        Vector2 paddlePosition = new Vector2(mousePositionXInUnits, transform.position.y);
-        transform.position = paddlePosition;
+        float mousePosXInUnits = (Input.mousePosition.x / Screen.width) * screenWidthInUnits;
+        mousePosXInUnits = Mathf.Clamp(mousePosXInUnits, 0f, screenWidthInUnits);
+        Vector2 paddlePos = new Vector2(mousePosXInUnits, transform.position.y);
+        transform.position = paddlePos;
     }
 }
