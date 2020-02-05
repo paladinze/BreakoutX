@@ -3,9 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ball : MonoBehaviour
+public class Ball : MonoBehaviour
 {
-  [SerializeField] paddle paddle1;
+  [SerializeField] Paddle paddle1;
   [SerializeField] float xSpeed;
   [SerializeField] float ySpeed;
   Vector2 paddleToBallVector;

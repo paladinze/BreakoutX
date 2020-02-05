@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class paddle : MonoBehaviour
+public class Paddle : MonoBehaviour
 {
     [SerializeField] float screenWidthInUnits = 16f;
     // Start is called before the first frame update
