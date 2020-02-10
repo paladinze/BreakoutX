@@ -14,6 +14,11 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
+    public void LoadLastScene()
+    {
+        SceneManager.LoadScene(SceneManager.sceneCountInBuildSettings - 1);
+    }
+
     public void QuitGame() {
         Application.Quit();
     }
