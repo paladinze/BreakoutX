@@ -9,25 +9,25 @@ EditorBuildSettings:
     path: Assets/Scenes/Start Menu.unity
     guid: de4c61b62161a4ea19b0819f3e9166b7
   - enabled: 1
-    path: Assets/Scenes/Level 0.unity
+    path: Assets/Scenes/Level intro.unity
     guid: de35f9d71dc05461581f42680194da9b
   - enabled: 1
-    path: Assets/Scenes/Level 1.unity
-    guid: 988db9797777d453dae3774e14830291
-  - enabled: 1
-    path: Assets/Scenes/Level 2.unity
+    path: Assets/Scenes/Level crab.unity
     guid: 92619887611474af0ab878b9f3f70f54
   - enabled: 1
-    path: Assets/Scenes/Level 3.unity
+    path: Assets/Scenes/Level monster.unity
     guid: a3fb760c928184b1e83030f2b4ef3a8f
   - enabled: 1
-    path: Assets/Scenes/Level 4.unity
+    path: Assets/Scenes/Level mexican.unity
     guid: 24cfdf33a76d246459fdab50747b0317
   - enabled: 1
-    path: Assets/Scenes/Level 5.unity
+    path: Assets/Scenes/Level pokeball.unity
+    guid: 988db9797777d453dae3774e14830291
+  - enabled: 1
+    path: Assets/Scenes/Level Ze.unity
     guid: 635220a27a4784e2ca282e6637fe7413
   - enabled: 1
-    path: Assets/Scenes/Level 6.unity
+    path: Assets/Scenes/Level Manny.unity
     guid: 30e07f00bc23848bc85ead7d7927e142
   - enabled: 1
     path: Assets/Scenes/Game Over.unity
