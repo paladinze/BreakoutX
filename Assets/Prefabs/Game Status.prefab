@@ -48,6 +48,7 @@ MonoBehaviour:
   scorePerBlockDestroyed: 27
   totalScore: 0
   scoreText: {fileID: 7212643780441772688}
+  autoPlayModeEnabled: 0
 --- !u!1001 &7212643779388388718
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -77,15 +78,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1095346173, guid: 34872c1e0e0774a7cb2c581d884dd898, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -56
+      value: -68
       objectReference: {fileID: 0}
     - target: {fileID: 1095346174, guid: 34872c1e0e0774a7cb2c581d884dd898, type: 3}
       propertyPath: m_fontSize
-      value: 24
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 1095346174, guid: 34872c1e0e0774a7cb2c581d884dd898, type: 3}
       propertyPath: m_fontSizeBase
-      value: 24
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 1095346174, guid: 34872c1e0e0774a7cb2c581d884dd898, type: 3}
       propertyPath: m_textAlignment
@@ -93,7 +94,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1095346174, guid: 34872c1e0e0774a7cb2c581d884dd898, type: 3}
       propertyPath: m_firstOverflowCharacterIndex
-      value: -1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1095346174, guid: 34872c1e0e0774a7cb2c581d884dd898, type: 3}
+      propertyPath: m_margin.x
+      value: -55.08557
       objectReference: {fileID: 0}
     - target: {fileID: 2961193534769113824, guid: 34872c1e0e0774a7cb2c581d884dd898,
         type: 3}

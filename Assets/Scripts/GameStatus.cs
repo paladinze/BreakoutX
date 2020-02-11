@@ -48,6 +48,7 @@ public class GameStatus : MonoBehaviour
 
     private void UpdateScoreText()
     {
+        if (!scoreText) return;
         scoreText.text = $"SCORE: {totalScore.ToString()}";
     }
 
@@ -57,8 +58,15 @@ public class GameStatus : MonoBehaviour
         totalScore = 0;
     }
 
+    public void EnableAutoPlayMode() {
+        autoPlayModeEnabled = true;
+    }
     public bool GetIsAutoPlaymodeEnabled()
     {
         return autoPlayModeEnabled;
+    }
+
+    public void LowerGameSpeed() {
+        gameSpeed = 0.5f;
     }
 }

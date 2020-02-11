@@ -2350,20 +2350,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5548488175530844046, guid: 621a04de387494af49767ab16df007df,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5548488176390034641, guid: 621a04de387494af49767ab16df007df,
         type: 3}
       propertyPath: m_Name
       value: Game Status
-      objectReference: {fileID: 0}
-    - target: {fileID: 5548488176390034642, guid: 621a04de387494af49767ab16df007df,
-        type: 3}
-      propertyPath: autoPlayModeEnabled
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5548488176390034643, guid: 621a04de387494af49767ab16df007df,
         type: 3}
@@ -2419,36 +2409,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7212643780441772688, guid: 621a04de387494af49767ab16df007df,
-        type: 3}
-      propertyPath: m_fontSize
-      value: 45
-      objectReference: {fileID: 0}
-    - target: {fileID: 7212643780441772688, guid: 621a04de387494af49767ab16df007df,
-        type: 3}
-      propertyPath: m_fontSizeBase
-      value: 45
-      objectReference: {fileID: 0}
-    - target: {fileID: 7212643780441772688, guid: 621a04de387494af49767ab16df007df,
-        type: 3}
-      propertyPath: m_firstOverflowCharacterIndex
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7212643780441772688, guid: 621a04de387494af49767ab16df007df,
-        type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7212643780441772688, guid: 621a04de387494af49767ab16df007df,
-        type: 3}
-      propertyPath: m_margin.x
-      value: -55.08557
-      objectReference: {fileID: 0}
-    - target: {fileID: 7212643780441772691, guid: 621a04de387494af49767ab16df007df,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -68
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 621a04de387494af49767ab16df007df, type: 3}
