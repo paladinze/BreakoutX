@@ -137,6 +137,7 @@ MonoBehaviour:
   paddle1: {fileID: 0}
   xSpeed: 5
   ySpeed: 10
+  randomFactor: 0.2
   audioClips:
   - {fileID: 8300000, guid: 9de219d0d04ac47c39dfe96fb739d27a, type: 3}
   - {fileID: 8300000, guid: a64b163c485414d1cb81b030710b33e6, type: 3}
